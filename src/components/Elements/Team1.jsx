@@ -3,22 +3,22 @@ import { NavLink } from 'react-router-dom';
 
 const teamMembers = [
     {
-        image: require('./../../images/our-team5/1.jpg'),
+        image: require('./../../images/our-team5/a1.webp'),
         membername: 'Johnny Jackman',
         position: 'Architect'
     },
     {
-        image: require('./../../images/our-team5/2.jpg'),
+        image: require('./../../images/our-team5/a2.webp'),
         membername: 'Daniel Rickman',
         position: 'Architect'
     },
     {
-        image: require('./../../images/our-team5/3.jpg'),
+        image: require('./../../images/our-team5/a3.webp'),
         membername: 'Mark Norwich',
         position: 'Finances'
     },
     {
-        image: require('./../../images/our-team5/4.jpg'),
+        image: require('./../../images/our-team5/a4.webp'),
         membername: 'Nich Jonas',
         position: 'Finances'
     }

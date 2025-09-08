@@ -130,7 +130,7 @@ class ProjectGrid5 extends React.Component {
                                                 <img 
                                                     src={item.image} 
                                                     alt={`brand-logo-${index}`} 
-                                                    style={{ width: "120px", height: "auto" }} 
+                                                    style={{ width: "120px", height: "auto" , gap:"30px"}} 
                                                 />
                                                 <div>
                                                     <span>View More</span>
@@ -153,7 +153,7 @@ class ProjectGrid5 extends React.Component {
 .grid-10 {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  column-gap: 30px; /* space between columns */
+  gap: 30px; /* space between columns */
   row-gap: 40px; /* space between rows */
   padding-left: 50px;
 }

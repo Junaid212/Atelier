@@ -8495,7 +8495,7 @@ padding:7px 0px;
 	top: -11px;
 	position: absolute;
 	width: 3000px;
-	background-color: #eef1f2;
+	background-color: #000;
 	z-index: -1;
 	bottom: -11px;
 }
@@ -12271,6 +12271,7 @@ transition: all 0.5s linear;
 	position: relative;
 	overflow: hidden;
 	border: 1px solid #ddd;
+	
 }
 
 .client-logo-pic * {

@@ -5,25 +5,25 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const testimonials = [
     {
-        image: require('./../../images/testimonials/pic1.jpg'),
+        image: require('./../../images/testimonials/a1.webp'),
         reviewername: 'Rosalina D. William',
         position: 'Architect',
         review: 'Great theme, just what we were looking for. Easy to install, easy to navigate. Well documented. Really enjoyed the support.'
     },
     {
-        image: require('./../../images/testimonials/pic2.jpg'),
+        image: require('./../../images/testimonials/a2.webp'),
         reviewername: 'Mitchal Jhon',
         position: 'Architect',
         review: 'Amazing fast and reliable customer support! The team of willing to go mile for customer service! Thanks!'
     },
     {
-        image: require('./../../images/testimonials/pic3.jpg'),
+        image: require('./../../images/testimonials/a3.webp'),
         reviewername: 'Barney Smith',
         position: 'Interior designer',
         review: 'Great theme, just what we were looking for. Easy to install, easy to navigate. Well documented. Really enjoyed the support.'
     },
     {
-        image: require('./../../images/testimonials/pic4.jpg'),
+        image: require('./../../images/testimonials/a4.webp'),
         reviewername: 'Rosalina D. William',
         position: 'Architect',
         review: 'Amazing fast and reliable customer support! The team of willing to go mile for customer service! Thanks!'

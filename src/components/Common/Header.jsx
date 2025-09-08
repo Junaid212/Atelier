@@ -82,11 +82,11 @@ class Header extends React.Component {
                                 </button>
                                 {/* EXTRA NAV */}
                                 <div className="extra-nav">
-                                    <div className="extra-cell">
+                                    {/* <div className="extra-cell">
                                         <NavLink to={"#"} onClick={this.handleSearchToggle}>
                                             <i className="fa fa-search" />
                                         </NavLink>
-                                    </div>
+                                    </div> */}
                                     <div className="extra-cell">
 
                                         <div className="contact-slide-show">
@@ -111,21 +111,22 @@ class Header extends React.Component {
                                                             <div className="icon-xs inline-icon m-b20 scale-in-center"><i className="fa fa-phone" /></div>
                                                             <div className="icon-content">
                                                                 <h6 className="m-t0">Phone number</h6>
-                                                                <p>(075) 123-7654</p>
+                                                                <p> 0824-241 85 77 7879<br/> +91 959 189 0009</p>
                                                             </div>
                                                         </div>
                                                         <div className="sx-icon-box-wraper left p-b30">
                                                             <div className="icon-xs inline-icon m-b20 scale-in-center"><i className="fa fa-envelope" /></div>
                                                             <div className="icon-content">
                                                                 <h6 className="m-t0">Email address</h6>
-                                                                <p>7xthemehelp@gmail.com</p>
+                                                                <p>info@atelierdz.com</p>
                                                             </div>
                                                         </div>
                                                         <div className="sx-icon-box-wraper left p-b30">
                                                             <div className="icon-xs inline-icon m-b20 scale-in-center"><i className="fa fa-map-marker" /></div>
                                                             <div className="icon-content">
                                                                 <h6 className="m-t0">Address info</h6>
-                                                                <p>201 Liverpool Street, Suite 721, London</p>
+                                                                <p> Atelier Designs, Fr. Muller Road, Valencia,
+Mangalore, India - 575 002</p>
                                                             </div>
                                                         </div>
                                                         <div className="full-social-bg">
@@ -176,7 +177,7 @@ class Header extends React.Component {
                                     </div>
                                 </div>
                                 {/* SITE SEARCH */}
-                                <div id="search" className={isSearchActive ? "open" : null}>
+                                {/* <div id="search" className={isSearchActive ? "open" : null}>
                                     <span className="close" onClick={this.handleSearchToggle} />
                                     <form role="search" id="searchform" action="/search" method="get" className="radius-xl">
                                         <div className="input-group">
@@ -184,7 +185,7 @@ class Header extends React.Component {
                                             <span className="input-group-btn"><button type="button" className="search-btn"><i className="fa fa-search arrow-animation" /></button></span>
                                         </div>
                                     </form>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

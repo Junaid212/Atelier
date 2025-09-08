@@ -66,9 +66,9 @@ class Header3 extends React.Component {
                                 {/* EXTRA NAV */}
                                 <div className="extra-nav">
                                     <div className="extra-cell">
-                                        <NavLink to={"#"} onClick={this.handleSearchToggle}> 
+                                        {/* <NavLink to={"#"} onClick={this.handleSearchToggle}> 
                                             <i className="fa fa-search" />
-                                        </NavLink>
+                                        </NavLink> */}
                                     </div>
                                     <div className="extra-cell">
                                         <ul className="list-unstyled social-bx text-black d-flex flex-wrap align-content-center">
@@ -85,7 +85,7 @@ class Header3 extends React.Component {
                                     <Navigation />
                                 </div>
                                 {/* SITE SEARCH */}
-                                <div id="search" className={isSearchActive ? "open" : null}>
+                                {/* <div id="search" className={isSearchActive ? "open" : null}>
                                     <span className="close" onClick={this.handleSearchToggle} />
                                     <form role="search" id="searchform" action="/search" method="get" className="radius-xl">
                                         <div className="input-group">
@@ -93,7 +93,7 @@ class Header3 extends React.Component {
                                             <span className="input-group-btn"><button type="button" className="search-btn"><i className="fa fa-search arrow-animation" /></button></span>
                                         </div>
                                     </form>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

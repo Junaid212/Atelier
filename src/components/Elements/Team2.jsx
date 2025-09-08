@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const teamMembers = [
     {
-        image: require('./../../images/our-team5/1.jpg'),
+        image: require('./../../images/our-team5/a1.webp'),
         membername: 'Johnny Jackman',
         position: 'Architect'
     },

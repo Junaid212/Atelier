@@ -46,42 +46,42 @@ class Sinks extends React.Component {
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic8.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/19.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic9.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/20.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic10.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/21.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic7.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/22.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic2.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/23.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic3.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/24.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>

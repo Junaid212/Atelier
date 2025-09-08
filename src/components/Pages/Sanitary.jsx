@@ -46,42 +46,42 @@ class Sanitary extends React.Component {
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic8.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/7.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic9.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/8.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic10.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/9.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic7.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/10.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic2.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/11.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic3.jpg')} alt="" />
+                                                    <img src={require('./../../images/projects/square/12.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
