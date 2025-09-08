@@ -123,23 +123,28 @@ class Projects2 extends React.Component {
                         {/* Filter Nav END */}
                         {/* GALLERY CONTENT START */}
                         <ul className="masonry-outer mfp-gallery work-grid row clearfix list-unstyled m-b0">
-                            {projects.map((item, index) => (
-                                <div key={index} className={`${item.filter} masonry-item col-lg-4 col-md-6 col-sm-12 m-b30`}>
-                                    <div className="sx-box image-hover-block">
-                                        <div className="sx-thum-bx">
-                                            <img src={item.image} alt="" />
-                                        </div>
-                                        <div className="sx-info  p-t20 text-white">
-                                            <h4 className="sx-tilte"><NavLink to={item.link}>{item.title}</NavLink></h4>
-                                            {/* <p className="m-b0">{item.address}</p> */}
-                                        </div>
-                                        <a className="mfp-link" href={item.image}>
-                                            <i className="fa fa-arrows-alt" />
-                                        </a>
-                                    </div>
-                                </div>
-                            ))}
-                        </ul>
+    {projects.map((item, index) => (
+        <div
+            key={index}
+            className={`${item.filter} masonry-item col-lg-4 col-md-6 col-sm-6 col-6 m-b30`}
+        >
+            <div className="sx-box image-hover-block">
+                <div className="sx-thum-bx">
+                    <img src={item.image} alt="" />
+                </div>
+                <div className="sx-info p-t20 text-white">
+                    <h4 className="sx-tilte">
+                        <NavLink to={item.link}>{item.title}</NavLink>
+                    </h4>
+                </div>
+                <a className="mfp-link" href={item.image}>
+                    <i className="fa fa-arrows-alt" />
+                </a>
+            </div>
+        </div>
+    ))}
+</ul>
+
                         {/* GALLERY CONTENT END */}
                         {/* <div className="text-center load-more-btn-outer" style={{ backgroundImage: 'url(' + bgimg2 + ')' }}>
                             <button className="site-button-secondry btn-half"><span>Load More</span></button>

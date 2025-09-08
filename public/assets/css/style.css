@@ -8157,6 +8157,7 @@ HEADER (top part of page)
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
+	
 }
 
 .logo-header-inner img {
@@ -8174,6 +8175,7 @@ HEADER (top part of page)
 @media only screen and (max-width:480px) {
 	.logo-header {
 		width: 100px;
+		background-color: #000;
 	}
 }
 

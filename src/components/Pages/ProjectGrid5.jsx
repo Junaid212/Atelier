@@ -100,11 +100,11 @@ class ProjectGrid5 extends React.Component {
                     />
 
                     {/* SECTION CONTENT START */}
-                    <div className="section-full p-tb80 column-grid-4 inner-page-padding">
+                    <div className="section-full p-tb80 inner-page-padding">
                         <div className="container">
 
                             {/* Filter Nav START */}
-                            <div className="filter-wrap p-b30 text-center">
+                            {/* <div className="filter-wrap p-b50 text-center">
                                 <ul className="filter-navigation masonry-filter clearfix">
                                     <li className="active">
                                         <NavLink to={"#"} className="btn from-top" data-filter="*" data-hover="All">All</NavLink>
@@ -117,31 +117,27 @@ class ProjectGrid5 extends React.Component {
                                         </li>
                                     ))}
                                 </ul>
-                            </div>
+                            </div> */}
                             {/* Filter Nav END */}
 
                             {/* Logos Grid START */}
-                            <div className="client-grid m-b40">
-                            <div className="centered-grid-wrapper">
-                                <div className="masonry-outer clearfix grid-10">
+                            <div className="client-grid">
+                                <div className="logos-grid-container">
                                     {logos.map((item, index) => (
-                                        <div key={index} className={`${item.filter} masonry-item col-custom-10`}>
+                                        <div key={index} className={`logo-item ${item.filter}`}>
                                             <NavLink to={"/brands"} className="client-logo-pic">
                                                 <img 
                                                     src={item.image} 
-                                                    alt={`brand-logo-${index}`} 
-                                                    style={{ width: "120px", height: "auto" , gap:"30px"}} 
+                                                    alt={`brand-logo-${index}`}
                                                 />
-                                                <div>
+                                                {/* <div className="logo-hover">
                                                     <span>View More</span>
-                                                </div>
+                                                </div> */}
                                             </NavLink>
                                         </div>
                                     ))}
                                 </div>
                             </div>
-                        </div>
-
                             {/* Logos Grid END */}
 
                         </div>
@@ -149,66 +145,158 @@ class ProjectGrid5 extends React.Component {
                     {/* SECTION CONTENT END */}
                 </div>
                 <style>{`
-                /* Custom 10-column grid */
-.grid-10 {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  gap: 30px; /* space between columns */
-  row-gap: 40px; /* space between rows */
-  padding-left: 50px;
-}
-
-.col-custom-10 {
-  text-align: center;
-}
-
-/* Large screens (desktops) */
-@media (max-width: 1400px) {
-  .grid-10 {
-    grid-template-columns: repeat(8, 1fr);
-    padding-left: 30px;
-  }
-}
-
-/* Medium screens (laptops/tablets landscape) */
-@media (max-width: 1024px) {
-  .grid-10 {
-    grid-template-columns: repeat(5, 1fr);
-    padding-left: 20px;
-  }
-}
-
-/* Small tablets */
-@media (max-width: 768px) {
-  .grid-10 {
-    grid-template-columns: repeat(4, 1fr);
-    padding-left: 10px;
-  }
-}
-
-/* Mobile screens */
-
-  @media (max-width: 576px) {
-  .grid-10 {
-    grid-template-columns: repeat(3, 1fr) !important; /* ✅ force 3 columns */
-    column-gap: 15px !important;
-    row-gap: 20px !important;
-    padding-left: 0 !important;
-    justify-items: center !important; /* center each logo */
-  }
-
-  .col-custom-10 {
-    width: 100% !important;
-  }
-
-  .col-custom-10 img {
-    width: 90px !important;
-    height: auto !important;
-  }
-}
-
-
-
+                .logos-grid-container {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                    gap: 30px 20px;
+                    justify-items: center;
+                    align-items: center;
+                }
+                
+                .logo-item {
+                    width: 100%;
+                    text-align: center;
+                    transition: all 0.3s ease;
+                }
+                
+                .client-logo-pic {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    padding: 20px;
+                    background: #fff;
+                    border-radius: 8px;
+                    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+                    transition: all 0.3s ease;
+                    height: 100%;
+                }
+                
+                // .client-logo-pic:hover {
+                //     transform: translateY(-5px);
+                //     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+                // }
+                
+                .client-logo-pic img {
+                    max-width: 100%;
+                    height: auto;
+                    max-height: 70px;
+                    object-fit: contain;
+                    margin-bottom: 10px;
+                }
+                
+                // .logo-hover {
+                //     opacity: 0;
+                //     transition: opacity 0.3s ease;
+                //     margin-top: 8px;
+                // }
+                
+                // .client-logo-pic:hover .logo-hover {
+                //     opacity: 1;
+                // }
+                
+                // .logo-hover span {
+                //     font-size: 12px;
+                //     color: #333;
+                //     font-weight: 500;
+                // }
+                
+                /* Responsive adjustments */
+                @media (min-width: 1600px) {
+                    .logos-grid-container {
+                        grid-template-columns: repeat(8, 1fr);
+                    }
+                }
+                
+                @media (max-width: 1200px) {
+                    .logos-grid-container {
+                        grid-template-columns: repeat(6, 1fr);
+                    }
+                }
+                
+                @media (max-width: 992px) {
+                    .logos-grid-container {
+                        grid-template-columns: repeat(5, 1fr);
+                        gap: 25px 15px;
+                    }
+                    
+                    .client-logo-pic {
+                        padding: 15px;
+                    }
+                    
+                    .client-logo-pic img {
+                        max-height: 60px;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    .logos-grid-container {
+                        grid-template-columns: repeat(4, 1fr);
+                        gap: 20px 12px;
+                    }
+                    
+                    .client-logo-pic {
+                        padding: 12px;
+                    }
+                    
+                    .client-logo-pic img {
+                        max-height: 50px;
+                    }
+                }
+                
+                @media (max-width: 576px) {
+                    .logos-grid-container {
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 15px 10px;
+                    }
+                    
+                    .client-logo-pic {
+                        padding: 10px;
+                    }
+                    
+                    .client-logo-pic img {
+                        max-height: 40px;
+                    }
+                    
+                    .logo-hover span {
+                        font-size: 10px;
+                    }
+                }
+                
+                @media (max-width: 400px) {
+                    .logos-grid-container {
+                        grid-template-columns: repeat(3, 1fr);
+                    }
+                }
+                
+                /* Filter button styles */
+                .filter-navigation {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    margin: 0 -8px;
+                }
+                
+                .filter-navigation li {
+                    padding: 0 8px;
+                    margin-bottom: 15px;
+                }
+                
+                .filter-navigation .btn {
+                    padding: 10px 20px;
+                    border-radius: 30px;
+                    background: #f5f5f5;
+                    color: #333;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                }
+                
+                .filter-navigation .btn:hover,
+                .filter-navigation .active .btn {
+                    background: #333;
+                    color: #fff;
+                }
                 `}</style>
 
                 <Footer2 />

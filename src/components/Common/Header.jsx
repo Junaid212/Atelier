@@ -69,7 +69,7 @@ class Header extends React.Component {
                                 <div className="logo-header">
                                     <div className="logo-header-inner logo-header-one">
                                         <NavLink to={"./"}>
-                                            <img src={this.state.logo} alt="Inteshape" />
+                                            <img src={this.state.logo} alt="Atelier" />
                                         </NavLink>
                                     </div>
                                 </div>

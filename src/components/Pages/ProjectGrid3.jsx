@@ -106,7 +106,7 @@ class ProjectGrid3 extends React.Component {
                             {/* GALLERY CONTENT START */}
                             <ul className="masonry-outer mfp-gallery work-grid row clearfix list-unstyled">
                                 {projects.map((item, index) => (
-                                    <div key={index} className={`${item.filter} masonry-item  col-lg-4 col-md-6 col-sm-12 m-b30`}>
+                                    <div key={index} className={`${item.filter} masonry-item  col-lg-4 col-md-6 col-sm-6 m-b30`}>
                                         <div className="sx-box image-hover-block">
                                             <div className="sx-thum-bx">
                                                 <img src={item.image} alt="" />
@@ -132,6 +132,44 @@ class ProjectGrid3 extends React.Component {
                 </div>
 
                 <Footer2 />
+                
+                {/* Add custom CSS for mobile responsiveness */}
+                <style jsx>{`
+                    @media (max-width: 576px) {
+                        .filter-navigation {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
+                        
+                        .filter-navigation li {
+                            margin: 5px;
+                        }
+                        
+                        .filter-navigation .btn {
+                            padding: 8px 12px;
+                            font-size: 12px;
+                        }
+                        
+                        .col-sm-6 {
+                            flex: 0 0 50%;
+                            max-width: 50%;
+                            padding: 0 8px;
+                        }
+                        
+                        .m-b30 {
+                            margin-bottom: 20px;
+                        }
+                        
+                        .sx-info {
+                            padding-top: 10px !important;
+                        }
+                        
+                        .sx-tilte {
+                            font-size: 14px;
+                        }
+                    }
+                `}</style>
             </>
         );
     };

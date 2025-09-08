@@ -16,14 +16,14 @@ class Footer2 extends React.Component {
                         <div className="container">
                             <div className="row">
                                 {/* ABOUT COMPANY */}
-                                <div className="col-lg-3 col-md-6 col-sm-6">
+                                <div className="col-lg-6 col-md-6 col-sm-12">
                                     <div className="widget widget_about">
                                         {/*<h4 class="widget-title">About Company</h4>*/}
                                         <div className="logo-footer clearfix p-b15">
                                             <NavLink to={"./"}>
-                                                <img src={require('./../../images/logo-light.png')} alt="Inteshape" />
+                                                <img src={require('./../../images/logo.png')} alt="Inteshape" />
                                             </NavLink>
-                                        </div>
+                                        </div><br/>
                                         <p>ATELIER is your destination for luxury bathrooms, kitchens, wellness, surfaces, and interiors. Bringing the world’s best brands under one roof.</p>
                                         <ul className="social-icons  sx-social-links">
                                             <li><a href="https://www.behance.net/" className="fa fa-behance" target="_blank"></a></li>
@@ -34,7 +34,7 @@ class Footer2 extends React.Component {
                                     </div>
                                 </div>
                                 {/* RESENT POST */}
-                                <div className="col-lg-3 col-md-6 col-sm-6">
+                                {/* <div className="col-lg-3 col-md-6 col-sm-6">
                                     <div className="widget recent-posts-entry-date">
                                         <h5 className="widget-title">Latest Updates</h5>
                                         <div className="widget-post-bx">
@@ -74,29 +74,12 @@ class Footer2 extends React.Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                            {/* <div className="widget-post clearfix">
-                                                <div className="sx-post-date text-center text-uppercase text-white">
-                                                    <strong className="p-date">18</strong>
-                                                    <span className="p-month">Sep</span>
-                                                    <span className="p-year">2022</span>
-                                                </div>
-                                                <div className="sx-post-info">
-                                                    <div className="sx-post-header">
-                                                        <h6 className="post-title"><NavLink to={"/blog-single"}>We’ll be a sensation for</NavLink></h6>
-                                                    </div>
-                                                    <div className="sx-post-meta">
-                                                        <ul>
-                                                            <li className="post-author"><i className="fa fa-user" />By Admin</li>
-                                                            <li className="post-comment"><i className="fa fa-comments" /> 29</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div> */}
+                                            
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 {/* USEFUL LINKS */}
-                                <div className="col-lg-3 col-md-6 col-sm-6 footer-col-3">
+                                <div className="col-lg-3 col-md-6 col-sm-12 footer-col-3">
                                     <div className="widget widget_services inline-links">
                                         <h5 className="widget-title">Browse</h5>
                                         <ul>
