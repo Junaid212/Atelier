@@ -26,7 +26,7 @@ const services = [
     {
         count: '04',
         title: 'Outdoor & Wellness Spaces',
-        flaticon: 'flaticon-skyline',
+        flaticon: 'flaticon-home',
         image: require('./../../images/services/service-projects/10.png'),
     },
     // {

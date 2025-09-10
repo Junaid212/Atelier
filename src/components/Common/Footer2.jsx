@@ -140,7 +140,7 @@ class Footer2 extends React.Component {
                         <div className="container">
                             <div className="row">
                                 <div className="sx-footer-bot-left">
-                                    <span className="copyrights-text">© 2019 Your Company. Designed By Atalier.</span>
+                                    <span className="copyrights-text">© 2025 ATELIER. Designed By Bright Media.Tech</span>
                                 </div>
                             </div>
                         </div>

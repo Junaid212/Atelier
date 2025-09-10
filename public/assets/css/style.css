@@ -8175,7 +8175,9 @@ HEADER (top part of page)
 @media only screen and (max-width:480px) {
 	.logo-header {
 		width: 100px;
-		background-color: #000;
+		background-color: #23252D;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 

@@ -85,7 +85,7 @@ class Services1 extends React.Component {
                                                         {item.title}
                                                     </h4>
                                                     <p>{item.description}</p>
-                                                    <div className="text-left">
+                                                    {/* <div className="text-left">
                                                         <NavLink 
                                                             to={"/services-detail"} 
                                                             className="site-button-link"
@@ -93,7 +93,7 @@ class Services1 extends React.Component {
                                                         >
                                                             Read More
                                                         </NavLink>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>

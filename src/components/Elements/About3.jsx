@@ -17,13 +17,13 @@ class About3 extends React.Component {
                                         <h3 className="m-t0 m-b20 sx-tilte">Making Your Home Truly Special</h3>
                                         <p> ATELIER helps you create beautiful and comfortable homes with top-quality products. We bring together the best brands from around the world, all under one roof. Our goal is to make your home stylish, practical, and truly yours.</p>
                                         <ul className="list-angle-right anchor-line">
-                                            <li><NavLink to="/about-1">Everything in One Place: Six categories with 50+ brands each.</NavLink></li>
-                                            <li><NavLink to="/about-1">Trusted Experience: Over 25 years in home décor.</NavLink></li>
-                                            <li><NavLink to="/about-1">Top International Brands: Quality products for every space.</NavLink></li>
-                                            <li><NavLink to="/about-1">Made for You: Spaces designed to match your style.</NavLink></li>
+                                            <li><NavLink to="/about-us">Everything in One Place: Six categories with 50+ brands each.</NavLink></li>
+                                            <li><NavLink to="/about-us">Trusted Experience: Over 25 years in home décor.</NavLink></li>
+                                            <li><NavLink to="/about-us">Top International Brands: Quality products for every space.</NavLink></li>
+                                            <li><NavLink to="/about-us">Made for You: Spaces designed to match your style.</NavLink></li>
                                         </ul>
                                         <div className="text-left">
-                                            <NavLink to="/about-1" className="site-button btn-half"><span>See Details</span></NavLink>
+                                            <NavLink to="/about-us" className="site-button btn-half"><span>See Details</span></NavLink>
                                         </div>
                                     </div>
                                 </div>
