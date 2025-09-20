@@ -2,14 +2,14 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const logos = [
-    { image: require('./../../images/client-logo/bosch.png') },
-    { image: require('./../../images/client-logo/hafele.png') },
-    { image: require('./../../images/client-logo/jaguar.png') },
-    { image: require('./../../images/client-logo/kaff.png') },
-    { image: require('./../../images/client-logo/kajaria.png') },
-    { image: require('./../../images/client-logo/kohler.png') },
-    { image: require('./../../images/client-logo/lg.png') },
-    { image: require('./../../images/client-logo/reginox.png') }
+    { image: require('./../../images/clientLogo/bosch.png') },
+    { image: require('./../../images/clientLogo/hafele.png') },
+    { image: require('./../../images/clientLogo/jaguar.png') },
+    { image: require('./../../images/clientLogo/kaff.png') },
+    { image: require('./../../images/clientLogo/kajaria.png') },
+    { image: require('./../../images/clientLogo/kohler.png') },
+    { image: require('./../../images/clientLogo/lg.png') },
+    { image: require('./../../images/clientLogo/reginox.png') }
 ]
 
 var bgimg1 = require('./../../images/background/bg-12.jpg');
