@@ -97,7 +97,7 @@ class Services2 extends React.Component {
                                                     <span className="icon-cell"><i className={item.flaticon} /></span>
                                                 </div>
                                                 <div className="icon-content">
-                                                    <h4 className="sx-tilte"> <NavLink to={"/services-detail"} className="sx-text-white"> {item.title}</NavLink></h4>
+                                                    <h4 className="sx-tilte"> <NavLink to={"/products"} className="sx-text-white"> {item.title}</NavLink></h4>
                                                 </div>
                                             </div>
                                             <span className="bgcall-block-number">{item.count}</span>

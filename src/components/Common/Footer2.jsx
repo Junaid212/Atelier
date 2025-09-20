@@ -108,13 +108,13 @@ class Footer2 extends React.Component {
                         <div className="container">
                             <div className="call-to-action-wrap">
                                 <div className="row">
-                                    <div className="col-lg-7 col-md-6">
+                                    {/* <div className="col-lg-7 col-md-6">
                                         <div className="call-to-action-left">
                                             <h5 className="text-uppercase m-b10 m-t0">Subscribe to our newsletter!</h5>
                                             <span>Never Miss Anything From ATELIER By Signing Up To Our Newsletter.</span>
                                         </div>
-                                    </div>
-                                    <div className="col-lg-5 col-md-6">
+                                    </div> */}
+                                    {/* <div className="col-lg-5 col-md-6">
                                         <div className="call-to-action-right">
                                             <div className="widget_newsletter">
                                                 <div className="newsletter-bx">
@@ -129,22 +129,38 @@ class Footer2 extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* FOOTER COPYRIGHT */}
-                    <div className="footer-bottom overlay-wraper">
-                        <div className="overlay-main" />
-                        <div className="container">
-                            <div className="row">
-                                <div className="sx-footer-bot-left">
-                                    <span className="copyrights-text">© 2025 ATELIER. Designed By Bright Media.Tech</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   <div className="footer-bottom overlay-wraper">
+    <div className="overlay-main" />
+    <div className="container">
+        <div className="row">
+            <div className="sx-footer-bot-left">
+                <span className="copyrights-text">
+                    © 2025 ATELIER. Designed By{" "}
+                    <a 
+                        href="https://brightmedia.tech" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{
+                            color: '#fff',
+                            textDecoration: 'underline',
+                            cursor: 'pointer'
+                        }}
+                        onMouseOver={(e) => e.target.style.opacity = '0.8'}
+                        onMouseOut={(e) => e.target.style.opacity = '1'}
+                    >
+                        BRIGHT MEDIA.tech
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
                 </footer>
                 <Switcher />
             </>

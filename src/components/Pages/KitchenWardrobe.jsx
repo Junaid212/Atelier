@@ -104,7 +104,7 @@ class KitchenWardrobe extends React.Component {
                                             <div className="product-block bg-gray p-a30 m-b30">
                                                 <ul>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p> Würfel Küche</p>
                                                     </li>
                                                     {/* <li>

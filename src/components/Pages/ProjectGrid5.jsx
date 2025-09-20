@@ -14,56 +14,63 @@ const filters = [
 ];
 
 const logos = [
-    { image: require('./../../images/client-logo/Bosch.png'), filter: 'cat-1' },
-    { image: require('./../../images/client-logo/Hafele.png'), filter: 'cat-2' },     
-    { image: require('./../../images/client-logo/Jaguar.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/kaff.png'), filter: 'cat-1' },
-    { image: require('./../../images/client-logo/Kajaria.png'), filter: 'cat-4' },    
-    { image: require('./../../images/client-logo/Kohler.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/Lg.png'), filter: 'cat-5' },         
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Bosch.png'), filter: 'cat-1' },       
-    { image: require('./../../images/client-logo/Hafele.png'), filter: 'cat-2' },     
-    { image: require('./../../images/client-logo/Jaguar.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/kaff.png'), filter: 'cat-1' },       
-    { image: require('./../../images/client-logo/Kajaria.png'), filter: 'cat-4' },    
-    { image: require('./../../images/client-logo/Kohler.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/Lg.png'), filter: 'cat-6' },         
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Bosch.png'), filter: 'cat-1' },       
-    { image: require('./../../images/client-logo/Hafele.png'), filter: 'cat-2' },     
-    { image: require('./../../images/client-logo/Jaguar.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/kaff.png'), filter: 'cat-1' },       
-    { image: require('./../../images/client-logo/Kajaria.png'), filter: 'cat-4' },    
-    { image: require('./../../images/client-logo/Kohler.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/Lg.png'), filter: 'cat-5' },         
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Bosch.png'), filter: 'cat-1' },       
-    { image: require('./../../images/client-logo/Hafele.png'), filter: 'cat-2' },     
-    { image: require('./../../images/client-logo/Jaguar.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/kaff.png'), filter: 'cat-1' },       
-    { image: require('./../../images/client-logo/Kajaria.png'), filter: 'cat-4' },    
-    { image: require('./../../images/client-logo/Kohler.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/Lg.png'), filter: 'cat-6' },         
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Bosch.png'), filter: 'cat-1' },       
-    { image: require('./../../images/client-logo/Hafele.png'), filter: 'cat-2' },     
-    { image: require('./../../images/client-logo/Jaguar.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/kaff.png'), filter: 'cat-1' },       
-    { image: require('./../../images/client-logo/Kajaria.png'), filter: 'cat-4' },    
-    { image: require('./../../images/client-logo/Kohler.png'), filter: 'cat-3' },     
-    { image: require('./../../images/client-logo/Lg.png'), filter: 'cat-5' },         
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
-    { image: require('./../../images/client-logo/Regilix.png'), filter: 'cat-2' },
+    { image: require('./../../images/client-logo/bosch.png') },
+    { image: require('./../../images/client-logo/hafele.png') },
+    { image: require('./../../images/client-logo/jaguar.png') },
+    { image: require('./../../images/client-logo/kaff.png') },
+    { image: require('./../../images/client-logo/kajaria.png') },
+    { image: require('./../../images/client-logo/kohler.png') },
+    { image: require('./../../images/client-logo/lg.png') },
+    { image: require('./../../images/client-logo/reginox.png') },
+    { image: require('./../../images/client-logo/bosch.png') },
+    { image: require('./../../images/client-logo/hafele.png') },
+    { image: require('./../../images/client-logo/jaguar.png') },
+    { image: require('./../../images/client-logo/kaff.png') },
+    { image: require('./../../images/client-logo/kajaria.png') },
+    { image: require('./../../images/client-logo/kohler.png') },
+    { image: require('./../../images/client-logo/lg.png') },
+    { image: require('./../../images/client-logo/reginox.png') },
+    { image: require('./../../images/client-logo/bosch.png') },
+    { image: require('./../../images/client-logo/hafele.png') },
+    { image: require('./../../images/client-logo/jaguar.png') },
+    { image: require('./../../images/client-logo/kaff.png') },
+    { image: require('./../../images/client-logo/kajaria.png') },
+    { image: require('./../../images/client-logo/kohler.png') },
+    { image: require('./../../images/client-logo/lg.png') },
+    { image: require('./../../images/client-logo/reginox.png') },
+    { image: require('./../../images/client-logo/bosch.png') },
+    { image: require('./../../images/client-logo/hafele.png') },
+    { image: require('./../../images/client-logo/jaguar.png') },
+    { image: require('./../../images/client-logo/kaff.png') },
+    { image: require('./../../images/client-logo/kajaria.png') },
+    { image: require('./../../images/client-logo/kohler.png') },
+    { image: require('./../../images/client-logo/lg.png') },
+    { image: require('./../../images/client-logo/reginox.png') },
+    { image: require('./../../images/client-logo/bosch.png') },
+    { image: require('./../../images/client-logo/hafele.png') },
+    { image: require('./../../images/client-logo/jaguar.png') },
+    { image: require('./../../images/client-logo/kaff.png') },
+    { image: require('./../../images/client-logo/kajaria.png') },
+    { image: require('./../../images/client-logo/kohler.png') },
+    { image: require('./../../images/client-logo/lg.png') },
+    { image: require('./../../images/client-logo/reginox.png') },
+    { image: require('./../../images/client-logo/bosch.png') },
+    { image: require('./../../images/client-logo/hafele.png') },
+    { image: require('./../../images/client-logo/jaguar.png') },
+    { image: require('./../../images/client-logo/kaff.png') },
+    { image: require('./../../images/client-logo/kajaria.png') },
+    { image: require('./../../images/client-logo/kohler.png') },
+    { image: require('./../../images/client-logo/lg.png') },
+    { image: require('./../../images/client-logo/reginox.png') },
+    { image: require('./../../images/client-logo/bosch.png') },
+    { image: require('./../../images/client-logo/hafele.png') },
+    { image: require('./../../images/client-logo/jaguar.png') },
+    { image: require('./../../images/client-logo/kaff.png') },
+    { image: require('./../../images/client-logo/kajaria.png') },
+    { image: require('./../../images/client-logo/kohler.png') },
+    { image: require('./../../images/client-logo/lg.png') },
+    { image: require('./../../images/client-logo/reginox.png') },
+    
 ];
 
 var bnrimg = require('./../../images/banner/br-banner.webp');
@@ -129,6 +136,7 @@ class ProjectGrid5 extends React.Component {
                                                 <img 
                                                     src={item.image} 
                                                     alt={`brand-logo-${index}`}
+                                                    className="brand-logo-img"
                                                 />
                                                 {/* <div className="logo-hover">
                                                     <span>View More</span>
@@ -173,17 +181,25 @@ class ProjectGrid5 extends React.Component {
                     height: 100%;
                 }
                 
-                // .client-logo-pic:hover {
-                //     transform: translateY(-5px);
-                //     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-                // }
+                .client-logo-pic:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+                }
                 
-                .client-logo-pic img {
+                .brand-logo-img {
                     max-width: 100%;
                     height: auto;
                     max-height: 70px;
                     object-fit: contain;
                     margin-bottom: 10px;
+                    filter: grayscale(100%);
+                    opacity: 0.8;
+                    transition: all 0.3s ease;
+                }
+                
+                .client-logo-pic:hover .brand-logo-img {
+                    filter: grayscale(0%);
+                    opacity: 1;
                 }
                 
                 // .logo-hover {
@@ -225,7 +241,7 @@ class ProjectGrid5 extends React.Component {
                         padding: 15px;
                     }
                     
-                    .client-logo-pic img {
+                    .brand-logo-img {
                         max-height: 60px;
                     }
                 }
@@ -240,7 +256,7 @@ class ProjectGrid5 extends React.Component {
                         padding: 12px;
                     }
                     
-                    .client-logo-pic img {
+                    .brand-logo-img {
                         max-height: 50px;
                     }
                 }
@@ -255,7 +271,7 @@ class ProjectGrid5 extends React.Component {
                         padding: 10px;
                     }
                     
-                    .client-logo-pic img {
+                    .brand-logo-img {
                         max-height: 40px;
                     }
                     
@@ -297,6 +313,7 @@ class ProjectGrid5 extends React.Component {
                     background: #333;
                     color: #fff;
                 }
+                    
                 `}</style>
 
                 <Footer2 />

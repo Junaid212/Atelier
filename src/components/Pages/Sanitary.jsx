@@ -104,23 +104,23 @@ class Sanitary extends React.Component {
                                             <div className="product-block bg-gray p-a30 m-b30">
                                                 <ul>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Grohe</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kohler.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kohler.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Kohler</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Jaguar.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/jaguar.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Jaguar</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Kerovit</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Essco </p>
                                                     </li>
                                                 </ul>

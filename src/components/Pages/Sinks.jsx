@@ -104,15 +104,15 @@ class Sinks extends React.Component {
                                             <div className="product-block bg-gray p-a30 m-b30">
                                                 <ul>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Regilix.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/reginox.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Reginox</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Nirali</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>futura </p>
                                                     </li>
                                                     {/* <li>

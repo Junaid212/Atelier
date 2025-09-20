@@ -103,23 +103,23 @@ class ProjectDetail2 extends React.Component {
                                             <div className="product-block bg-gray p-a30 m-b30">
                                                 <ul>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Nexion</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Simpol</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Caesar</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Kajaria</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Icon Tiles</p>
                                                     </li>
                                                 </ul>

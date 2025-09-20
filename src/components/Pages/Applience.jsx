@@ -108,19 +108,19 @@ class Applience extends React.Component {
                                                         <p>Kaff Chimney</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Bosch.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/bosch.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Bosch</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Lg.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/lg.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>LG</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Hafele.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/hafele.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Hafele</p>
                                                     </li>
                                                     <li>
-                                                        <img src={require('./../../images/client-logo/Kajaria.png')} alt="Logo" style={{width:'90px'}}/>
+                                                        <img src={require('./../../images/client-logo/kajaria.png')} alt="Logo" style={{width:'90px'}}/>
                                                         <p>Siemans </p>
                                                     </li>
                                                 </ul>

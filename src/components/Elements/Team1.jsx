@@ -3,34 +3,35 @@ import { NavLink } from 'react-router-dom';
 
 const teamMembers = [
     {
-        image: require('./../../images/our-team5/a1.webp'),
+        image: require('./../../images/testimonials/test-img.png'),
         membername: 'Johnny Jackman',
         position: 'Architect'
     },
     {
-        image: require('./../../images/our-team5/a2.webp'),
+        image: require('./../../images/testimonials/test-img.png'),
         membername: 'Daniel Rickman',
         position: 'Architect'
     },
     {
-        image: require('./../../images/our-team5/a3.webp'),
+        image: require('./../../images/testimonials/test-img.png'),
         membername: 'Mark Norwich',
         position: 'Finances'
     },
     {
-        image: require('./../../images/our-team5/a4.webp'),
+        image: require('./../../images/testimonials/test-img.png'),
         membername: 'Nich Jonas',
         position: 'Finances'
     }
 ]
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
+var bgimg2 = require('./../../images/background/bg-img.png');
 
 class Team1 extends React.Component {
     render() {
         return (
             <>
-                <div className="section-full p-t80 p-b50 mobile-page-padding">
+                <div className="section-full p-t80 p-b50 mobile-page-padding" style={{ backgroundImage: 'url(' + bgimg2 + ')' }} >
                     <div className="container">
                         {/* TITLE START */}
                         <div className="section-head">
