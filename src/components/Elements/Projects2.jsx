@@ -130,7 +130,7 @@ class Projects2 extends React.Component {
         >
             <div className="sx-box image-hover-block">
                 <div className="sx-thum-bx">
-                    <img src={item.image} alt="" />
+                    <NavLink to={item.link}><img src={item.image} alt="" /></NavLink>
                 </div>
                 <div className="sx-info p-t20 text-white">
                     <h4 className="sx-tilte">

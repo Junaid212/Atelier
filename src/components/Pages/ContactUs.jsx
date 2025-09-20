@@ -217,8 +217,8 @@ const ContactUs = () => {
                   return (
                     <div key={index} className="info-card-wrapper">
                       <div className="card info-card">
-                        <div className="card-body">
-                          <div className="info-card-content">
+                        <div className="card-body" style={{backgroundColor:'#F9C828', borderRadius:'0.5rem'}}>
+                          <div className="info-card-content" >
                             <div className={`icon-container ${info.color}`}>
                               <IconComponent size={24} />
                             </div>
@@ -345,6 +345,7 @@ const ContactUs = () => {
         }
         
         .card-body {
+        
           flex: 1 1 auto;
           padding: 1.5rem;
         }
@@ -551,19 +552,19 @@ const ContactUs = () => {
         }
         
         .icon-container.primary {
-          color: #0d6efd;
+          color: #F9C828;
         }
         
         .icon-container.success {
-          color: #198754;
+          color: #F9C828;
         }
         
         .icon-container.info {
-          color: #0dcaf0;
+          color: #F9C828;
         }
         
         .icon-container.warning {
-          color: #ffc107;
+          color: #F9C828;
         }
         
         .info-details {
@@ -578,7 +579,7 @@ const ContactUs = () => {
         }
         
         .info-text {
-          color: #6c757d;
+          color: #ffff;
           font-size: 0.9rem;
           margin-bottom: 0.25rem;
         }
