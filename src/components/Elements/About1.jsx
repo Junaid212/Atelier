@@ -5,11 +5,11 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const images = [
-    require('./../../images/about-slider/int.jpg'),
-    require('./../../images/about-slider/2.jpg'),
-    require('./../../images/about-slider/3.jpg'),
-    require('./../../images/about-slider/4.jpg'),
-    require('./../../images/about-slider/5.jpg')
+    require('./../../images/about-slider/int.webp'),
+    require('./../../images/about-slider/2.webp'),
+    require('./../../images/about-slider/3.webp'),
+    require('./../../images/about-slider/4.webp'),
+    require('./../../images/about-slider/5.webp')
 ]
 
 var bgimg1 = require('./../../images/background/bg-4.png');
@@ -72,7 +72,7 @@ class About1 extends React.Component {
 
                                         </OwlCarousel>
                                         <div className="about-home-before">
-                                            <img src={require('./../../images/about-slider/2.jpg')} alt="" />
+                                            <img src={require('./../../images/about-slider/2.webp')} alt="" />
                                         </div>
                                     </div>
                                 </div>
