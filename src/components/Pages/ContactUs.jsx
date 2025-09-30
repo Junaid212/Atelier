@@ -369,7 +369,7 @@ const ContactUs = () => {
         }
         
         .form-icon {
-          color: #0d6efd;
+          color: #F9C828;
         }
         
         .form-title {

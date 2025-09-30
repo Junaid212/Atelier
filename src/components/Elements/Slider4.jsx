@@ -135,9 +135,9 @@ class Slider4 extends React.Component {
                             {/* left side social bar*/}
                             <div className="slide-left-social">
                                 <ul className="clearfix">
-                                    <li><a href="https://www.linkedin.com" target="_blank" className="sx-title-swip" data-hover="Linkedin">Linkedin</a></li>
-                                    <li><a href="https://twitter.com" target="_blank" className="sx-title-swip" data-hover="Twitter">Twitter</a></li>
-                                    <li><a href="https://www.facebook.com" target="_blank" className="sx-title-swip" data-hover="Facebook">Facebook</a></li>
+                                    <li><a href="https://www.instagram.com/atelier_dz/" target="_blank" className="sx-title-swip" data-hover="Linkedin">Intagram</a></li>
+                                    {/* <li><a href="https://twitter.com" target="_blank" className="sx-title-swip" data-hover="Twitter">Twitter</a></li> */}
+                                    <li><a href="https://www.facebook.com/AbsoluteAtelier" target="_blank" className="sx-title-swip" data-hover="Facebook">Facebook</a></li>
                                 </ul>
                             </div>
                         </div>

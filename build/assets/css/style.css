@@ -5235,7 +5235,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*testimonial 1*/
-.testimonial-1{position:relative; text-align:center;	padding:30px 30px 30px 30px;}
+.testimonial-1{position:relative; text-align:center; 	padding:30px 30px 30px 30px;}
 .testimonial-1 .fa-quote-right {
 	position: absolute;
 	right: 30px;

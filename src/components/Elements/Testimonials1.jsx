@@ -7,26 +7,26 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const testimonials = [
     {
         image: require('./../../images/testimonials/pic1.jpg'),
-        reviewername: 'Rosalina D. William',
+        reviewername: 'Person 1',
         position: 'Architect',
         review: '“Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks! which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.”'
     },
     {
         image: require('./../../images/testimonials/pic2.jpg'),
-        reviewername: 'Mitchal Jhon',
+        reviewername: 'Person 2',
         position: 'Architect',
         review: '“Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks! which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.”'
     },
     {
         image: require('./../../images/testimonials/pic3.jpg'),
-        reviewername: 'Barney Smith',
+        reviewername: 'Person 3',
         position: 'Interior designer',
         review: '“Great theme, just what we were looking for. Easy to install, easy to navigate. Well documented. Really enjoyed the support. which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.”'
     },
     {
         image: require('./../../images/testimonials/pic4.jpg'),
         reviewername: 'Rosalina D. William',
-        position: 'Architect',
+        position: 'Person 4',
         review: '“Great theme, just what we were looking for. Easy to install, easy to navigate. Well documented. Really enjoyed the support. which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.”'
     },
     {

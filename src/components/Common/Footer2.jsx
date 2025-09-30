@@ -25,11 +25,11 @@ class Footer2 extends React.Component {
                                             </NavLink>
                                         </div><br/>
                                         <p>ATELIER is your destination for luxury bathrooms, kitchens, wellness, surfaces, and interiors. Bringing the world’s best brands under one roof.</p>
-                                        <ul className="social-icons  sx-social-links">
-                                            <li><a href="https://www.behance.net/" className="fa fa-behance" target="_blank"></a></li>
-                                            <li><a href="https://www.facebook.com" className="fa fa-facebook" target="_blank"></a></li>
-                                            <li><a href="https://twitter.com" className="fa fa-twitter" target="_blank"></a></li>
-                                            <li><a href="https://www.instagram.com" className="fa fa-instagram" target="_blank"></a></li>
+                                        <ul className="social-icons  sx-social-links" >
+                                            {/* <li><a href="https://www.behance.net/" className="fa fa-behance" target="_blank"></a></li> */}
+                                            <li><a href="https://www.facebook.com/AbsoluteAtelier" className="fa fa-facebook" target="_blank"></a></li>
+                                            {/* <li><a href="https://twitter.com" className="fa fa-twitter" target="_blank"></a></li> */}
+                                            <li><a href="https://www.instagram.com/atelier_dz/" className="fa fa-instagram" target="_blank"></a></li>
                                         </ul>
                                     </div>
                                 </div>
