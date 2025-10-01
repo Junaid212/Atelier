@@ -70,7 +70,7 @@ class Services1 extends React.Component {
                                         <div className="sx-icon-box-wraper icon-count-2-outer">
                                             <div className="icon-count-2 bg-white" style={{ 
                                                 borderTop: `4px solid ${item.color}`,
-                                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                                                transition: 'transform 0.3s ease, box-shadow 0.3s ease',height:'400px'
                                             }}>
                                                 <span className="icon-count-number" style={{ color: item.color }}>
                                                     {item.count}
