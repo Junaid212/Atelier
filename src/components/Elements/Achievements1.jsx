@@ -3,7 +3,7 @@ import React from 'react';
 const achievements1 = [
     {
         title: 'Beginnings',
-        description: 'ATELIER started its journey as a home décor and lifestyle venture, bringing new ideas and solutions to modern living.',
+        description: 'GROUP4 started its journey as a home décor and lifestyle venture, bringing new ideas and solutions to modern living.',
         date: '01',
         month: 'Oct',
         year: '2007',

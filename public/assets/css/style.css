@@ -8330,6 +8330,7 @@ padding:7px 0px;
 
 .main-bar {
 	position: relative;
+	background-color: black;
 	width: 100%;
 	padding: 10px 0px;
 	-webkit-transition: all 0.5s ease;
@@ -8499,7 +8500,7 @@ padding:7px 0px;
 	top: -11px;
 	position: absolute;
 	width: 3000px;
-	background-color: #000;
+	background-color: #23252D;
 	z-index: -1;
 	bottom: -11px;
 }

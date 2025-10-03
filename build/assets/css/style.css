@@ -8140,7 +8140,7 @@ HEADER (top part of page)
 	display: table;
 	float: left;
 	width: 170px;
-	height: 70px;
+	height: 90px;
 	vertical-align: middle;
 	padding: 0;
 	font-size: 36px;
@@ -8175,7 +8175,7 @@ HEADER (top part of page)
 @media only screen and (max-width:480px) {
 	.logo-header {
 		width: 100px;
-		background-color: #23252D;
+		background-color: #000000;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -8205,7 +8205,7 @@ HEADER (top part of page)
 
 .logo-footer-inner img {
 	max-width: 100%;
-	max-height: 100%;
+	max-height: 100px;
 }
 
 /*____MAIN BAR ( place logo & main-navigation )
@@ -8496,12 +8496,12 @@ padding:7px 0px;
 .header-style-1 .header-left-gray-block .logo-header:after{
 	content: '';
 	right: 0px;
-	top: -11px;
+	top: 0px;
 	position: absolute;
 	width: 3000px;
-	background-color: #000;
+	background-color: #23252D;
 	z-index: -1;
-	bottom: -11px;
+	/* bottom: -11px; */
 }
 
 .header-style-1 .is-fixed.color-fill .header-left-gray-block .logo-header:after{

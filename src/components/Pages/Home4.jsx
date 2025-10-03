@@ -14,12 +14,13 @@ import Services2 from '../Elements/Services2';
 import Statistics1 from '../Elements/Statistics1';
 import Testimonials2 from '../Elements/Testimonials2';
 import Footer2 from '../Common/Footer2';
+import Header4 from '../Common/Header4';
 
 class Home4 extends React.Component {
     render() {
         return (
             <>
-                <Header />
+                <Header4  />
                 <div className="page-content">
                     {/* SLIDER START */}
                     <Slider4 />

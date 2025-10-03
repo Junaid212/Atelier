@@ -21,7 +21,7 @@ class Footer2 extends React.Component {
                                         {/*<h4 class="widget-title">About Company</h4>*/}
                                         <div className="logo-footer clearfix p-b15">
                                             <NavLink to={"./"}>
-                                                <img src={require('./../../images/logo.png')} alt="Inteshape" />
+                                                <img src={require('./../../images/aw-logo.png')} alt="Group4"  />
                                             </NavLink>
                                         </div><br/>
                                         <p>ATELIER is your destination for luxury bathrooms, kitchens, wellness, surfaces, and interiors. Bringing the world’s best brands under one roof.</p>

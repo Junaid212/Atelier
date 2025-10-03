@@ -8,7 +8,7 @@ class Header extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = { logo: require('./../../images/logo.png') };
+        this.state = { logo: require('./../../images/aw-logo.png') };
     }
 
     state = { isSearchActive: false, isQuoteActive: false };
@@ -64,7 +64,7 @@ class Header extends React.Component {
                         </div>
                     </div> */}
                     <div className="sticky-header main-bar-wraper navbar-expand-lg">
-                        <div className="main-bar header-left-gray-block bg-white">
+                        <div className="main-bar header-left-gray-block bg-black">
                             <div className="container clearfix">
                                 <div className="logo-header">
                                     <div className="logo-header-inner logo-header-one">

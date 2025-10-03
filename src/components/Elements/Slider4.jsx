@@ -36,9 +36,9 @@ class Slider4 extends React.Component {
     render() {
         return (
             <>
-                <div id="rev_slider_26_1_wrapper " className="rev_slider_wrapper fullscreen-container home-rev-slider" data-alias="mask-showcase" data-source="gallery">
+                <div id="rev_slider_26_1_wrapper " className="rev_slider_wrapper fullscreen-container home-rev-slider" data-alias="mask-showcase" data-source="gallery" >
                         {/* START REVOLUTION SLIDER 5.4.1 fullscreen mode */}
-                        <div id="rev_slider_26_1" className="rev_slider fullscreenbanner" style={{ display: 'none' }} data-version="5.4.1">
+                        <div id="rev_slider_26_1" className="rev_slider fullscreenbanner" style={{ display: 'none' ,marginTop:'30px'}} data-version="5.4.1" >
                             <ul>
                                 {/* SLIDE 1 */}
                                 <li data-index="rs-73" data-transition="fade" data-slotamount="default" data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={300} data-thumb={require('./../../images/main-slider/slider1/slide1.jpg')} data-rotate={0} data-saveperformance="off" data-title data-param1={1} data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>

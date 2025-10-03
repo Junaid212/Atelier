@@ -27,8 +27,8 @@ class Navigation extends React.Component {
     render() {
         return (
             <>
-                <ul className="nav navbar-nav">
-                    <li className="active">
+                <ul className="nav navbar-nav" >
+                    <li className="active" >
                         <NavLink to={"/"}>Home</NavLink>
                         {/* <ul className="sub-menu">
                             <li><NavLink to={"/"}>Home-1</NavLink></li>

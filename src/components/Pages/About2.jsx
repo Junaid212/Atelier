@@ -39,7 +39,7 @@ class Home4 extends React.Component {
             <>
                 <Header4 />
                 <div className="page-content">
-                    <Banner title="The ATELIER Experience" pagename="About" description="ATELIER began in 2007 and was relaunched in 2025 with a fresh vision. With 25+ years of experience, we bring over 50+ global brands and smart design solutions to create stylish and comfortable homes." bgimage={bnrimg}/>
+                    <Banner title="The ATELIER Experience" pagename="About" description="GROUP4 began in 2007 and was relaunched in 2025 with a fresh vision. With 25+ years of experience, we bring over 50+ global brands and smart design solutions to create stylish and comfortable homes." bgimage={bnrimg}/>
                     <About3 bgcolor="bg-gray" />
                     {/* <WhatWeDo3 /> */}
                     <WhatWeDo6 />
