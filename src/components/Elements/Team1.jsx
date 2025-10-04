@@ -1,58 +1,60 @@
-import { Linkedin, LinkedinIcon, Twitter } from 'lucide-react';
+import { Linkedin, Twitter } from 'lucide-react';
 
 function Team1() {
   const teamMembers = [
     {
-      name: 'ANNA SINGH',
-      title: 'CHAIRMAN',
-      description: 'Visioinary leader with a passion for sustainable design and community building. Anna guides the company\'s strategic growth, ensurtin, ensuring evejery project reflects our core values. With 15+ years nin industry, her expertise in umantched.',
-      image: 'https://images.pexels.com/photos/7428096/pexels-photo-7428096.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: "ANNA SINGH",
+      title: "CHAIRMAN",
+      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600",
+      description: "Visioinary leader with a passion for sustainable design and community building. Anna guides the company's strategic growth, ensurtin, ensuring evejery project reflects our core values. With 15+ years nin industry, her expertise in umantched."
     },
     {
-      name: 'RAJESH KUMAR',
-      title: 'DIRECTOR',
-      description: 'Creative mastrminand and architectural Rajesh driva eesh drives the design phiosophy, integrating-cutteting technology eco-friendly eco-friendly practices. His award-winning designs : have respaped urban landscapes.',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: "RAJESH KUMAR",
+      title: "DIRECTOR",
+      image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600",
+      description: "Visioinary leader with a passion for sustainable design and community building. Anna guides the company's strategic growth, ensurtin, ensuring evejery project reflects our core values. With 15+ years nin industry, her expertise in umantched."
     }
   ];
 
   return (
-    <div className="app-container">
+    <div className="page-container">
       <div className="content-wrapper">
         <div className="team-card">
           <div className="header">
             <h1 className="title">OUR TEAM</h1>
-            <div className="social-links">
-              <a href="#" className="social-icon" aria-label="LinkedIn">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="social-icon" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-            </div>
+            {/* <div className="social-icons">
+              <div className="icon-circle">
+                <Linkedin className="icon" />
+              </div>
+              <div className="icon-circle">
+                <Twitter className="icon" />
+              </div>
+            </div> */}
           </div>
 
-          <div className="team-members">
+          <div className="members-container">
             {teamMembers.map((member, index) => (
-              <div key={index} className="team-member">
-                <div className="member-content">
-                  <div className="profile-image-container">
-                    <div className="profile-gradient"></div>
+              <div key={index}>
+                <div className={`member-row ${index % 2 === 0 ? 'normal' : 'reverse'}`}>
+                  <div className="member-image-section">
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="profile-image"
+                      className="member-image"
                     />
+                    {/* <div className="member-info">
+                      <h3 className="member-name">{member.name}</h3>
+                      <p className="member-title">{member.title}</p>
+                    </div> */}
                   </div>
 
-                  <div className="member-description">
-                    <p>{member.description}</p>
+                  <div className="member-description-section">
+                    <p className="member-description">
+                      <h3 className="member-name">{member.name}</h3>
+                      <p className="member-title">{member.title}</p>
+                      {member.description}
+                    </p>
                   </div>
-                </div>
-
-                <div className="member-info">
-                  <h2 className="member-name">{member.name}</h2>
-                  <p className="member-title">{member.title}</p>
                 </div>
 
                 {index < teamMembers.length - 1 && (
@@ -64,114 +66,100 @@ function Team1() {
         </div>
       </div>
       <style>{`
-      .app-container {
+      .page-container {
   min-height: 100vh;
-  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
-  padding: 3rem 1rem;
+  background-color: #f9fafb;
+  padding: 4rem 0;
 }
 
 .content-wrapper {
   max-width: 80rem;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .team-card {
-  background: white;
+  background-color: white;
   border-radius: 1.5rem;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  padding: 3rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 3rem 6rem 3rem 6rem;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 4rem;
+  justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
 .title {
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: #111827;
   letter-spacing: -0.025em;
   margin: 0;
 }
 
-.social-links {
+.social-icons {
   display: flex;
   gap: 0.75rem;
 }
 
-.social-icon {
-  width: 2.5rem;
-  height: 2.5rem;
+.icon-circle {
+  width: 3rem;
+  height: 3rem;
+  background-color: #475569;
   border-radius: 50%;
-  background-color: #374151;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   transition: background-color 0.2s;
+}
+
+.icon-circle:hover {
+  background-color: #334155;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
   color: white;
-  text-decoration: none;
 }
 
-.social-icon:hover {
-  background-color: #1f2937;
-}
-
-.team-members {
+.members-container {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 3rem;
 }
 
-.team-member {
+.member-row {
   display: flex;
-  flex-direction: column;
-}
-
-.member-content {
-  display: flex;
-  gap: 2rem;
+  gap: 3rem;
   align-items: flex-start;
-  margin-bottom: 1.5rem;
 }
 
-.profile-image-container {
+.member-row.normal {
+  flex-direction: row;
+}
+
+.member-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.member-image-section {
+  width: 16rem;
   flex-shrink: 0;
-  position: relative;
-  width: 12rem;
-  height: 12rem;
 }
 
-.profile-gradient {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom right, #fbbf24, #f59e0b, #d97706);
-  border-radius: 50%;
-  transform: scale(1.05);
-}
-
-.profile-image {
-  position: relative;
-  width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
+.member-image {
+  width: 220px;
+  height: 250px;
   object-fit: cover;
-  border: 8px solid white;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-}
-
-.member-description {
-  flex: 1;
-  padding-top: 1rem;
-}
-
-.member-description p {
-  color: #374151;
-  font-size: 1.125rem;
-  line-height: 1.75;
-  margin: 0;
+  // background-color: #F3C033;
+  padding:5px;
+  border: 3px solid #F3C033;
 }
 
 .member-info {
@@ -179,28 +167,41 @@ function Team1() {
 }
 
 .member-name {
-  font-size: 1.875rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 900;
   color: #111827;
-  margin: 0 0 0.25rem 0;
+  letter-spacing: -0.025em;
+  margin: 0;
 }
 
 .member-title {
-  font-size: 0.875rem;
-  font-weight: 500;
   color: #6b7280;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  letter-spacing: 0.025em;
+}
+
+.member-description-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.member-description {
+  color: #111827;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  text-align: justify;
   margin: 0;
 }
 
 .divider {
-  margin-top: 3rem;
-  border-top: 4px solid #1f2937;
-  max-width: 28rem;
+  margin-top: 2rem;
+  border-top: 4px solid #111827;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .team-card {
     padding: 2rem;
   }
@@ -209,33 +210,23 @@ function Team1() {
     font-size: 2.5rem;
   }
 
-  .header {
-    margin-bottom: 3rem;
-  }
-
-  .member-content {
+  .member-row.normal,
+  .member-row.reverse {
     flex-direction: column;
   }
 
-  .profile-image-container,
-  .profile-gradient,
-  .profile-image {
-    width: 10rem;
-    height: 10rem;
-  }
-
-  .member-description p {
-    font-size: 1rem;
-  }
-
-  .member-name {
-    font-size: 1.5rem;
+  .member-image-section {
+    width: 100%;
   }
 }
 
 @media (max-width: 640px) {
-  .app-container {
-    padding: 1.5rem 1rem;
+  .page-container {
+    padding: 2rem 0;
+  }
+
+  .content-wrapper {
+    padding: 0 1rem;
   }
 
   .team-card {
@@ -248,10 +239,10 @@ function Team1() {
 
   .header {
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
-  .social-links {
+  .social-icons {
     align-self: flex-start;
   }
 }

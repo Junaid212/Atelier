@@ -8139,8 +8139,8 @@ HEADER (top part of page)
 .logo-header {
 	display: table;
 	float: left;
-	width: 170px;
-	height: 70px;
+	width: 200px;
+	height: 90px;
 	vertical-align: middle;
 	padding: 0;
 	font-size: 36px;
@@ -8168,14 +8168,14 @@ HEADER (top part of page)
 
 @media only screen and (max-width:991px) {
 	.logo-header {
-		width: 120px;
+		width: 200px;
 	}
 }
 
 @media only screen and (max-width:480px) {
 	.logo-header {
-		width: 100px;
-		background-color: #23252D;
+		width: 150px;
+		/* background-color: #23252D; */
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -8183,10 +8183,10 @@ HEADER (top part of page)
 
 .logo-footer {
 	display: table;
-	width: 170px;
-	height: 70px;
+	width: 200px;
+	height: 90px;
 	vertical-align: middle;
-	padding: 0px 0px 15px 0px;
+	padding: 0px 0px 10px 0px;
 	font-size: 36px;
 	color: #1bbce8;
 	margin-top: 0;
@@ -14498,7 +14498,7 @@ color:#fff;
 -----------------------------------------------*/
 
 .counter-blocks .sx-icon-box-wraper:hover{
-	background-color:#F9C828;
+	background-color:#F3C033;
 	color:#000;
 }
 
