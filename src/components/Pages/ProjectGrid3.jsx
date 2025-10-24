@@ -108,17 +108,24 @@ class ProjectGrid3 extends React.Component {
                                 {projects.map((item, index) => (
                                     <div key={index} className={`${item.filter} masonry-item  col-lg-4 col-md-6 col-sm-6 m-b30`}>
                                         <div className="sx-box image-hover-block">
-                                            <div className="sx-thum-bx">
-                                                <img src={item.image} alt="" />
-                                            </div>
-                                            <div className="sx-info  p-t20 text-white">
-                                                <h4 className="sx-tilte"><NavLink to={item.link}>{item.title}</NavLink></h4>
-                                                {/* <p className="m-b0">{item.address}</p> */}
-                                            </div>
-                                            <a className="mfp-link" href={item.image}>
-                                                <i className="fa fa-arrows-alt" />
-                                            </a>
-                                        </div>
+  <div className="sx-thum-bx">
+    <NavLink to={item.link}>
+      <img src={item.image} alt={item.title} />
+    </NavLink>
+  </div>
+
+  <div className="sx-info p-t20 text-white">
+    <h4 className="sx-tilte">
+      <NavLink to={item.link}>{item.title}</NavLink>
+    </h4>
+    {/* <p className="m-b0">{item.address}</p> */}
+  </div>
+
+  <a className="mfp-link" href={item.image}>
+    {/* <i className="fa fa-arrows-alt" /> */}
+  </a>
+</div>
+
                                     </div>
                                 ))}
                             </ul>
