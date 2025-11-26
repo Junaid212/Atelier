@@ -23,7 +23,7 @@ class Statistics1 extends React.Component {
                                         </div>
                                         <div className="col-xl-3 col-md-6 m-b30">
                                             <div className="sx-count  text-white sx-icon-box-wraper bg-repeat p-a30" style={{ backgroundImage: 'url(' + bgimg2 + ')' }}>
-                                                <h2 className="m-t0  sx-text-primary text-left"><span className="counter"><CountUp end={20} duration={5} />K+<small>sq.ft</small></span></h2>
+                                                <h2 className="m-t0  sx-text-primary text-left"><span className="counter"><CountUp end={50} duration={5} />K+<small>sq.ft</small></span></h2>
                                                 <h4 className="m-b0">Showroom Space</h4>
                                             </div>
                                         </div>

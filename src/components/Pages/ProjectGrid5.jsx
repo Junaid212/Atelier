@@ -22,54 +22,23 @@ const logos = [
     { image: require('./../../images/client-logo/kohler.png') },
     { image: require('./../../images/client-logo/lg.png') },
     { image: require('./../../images/client-logo/reginox.png') },
-    { image: require('./../../images/client-logo/bosch.png') },
-    { image: require('./../../images/client-logo/hafele.png') },
-    { image: require('./../../images/client-logo/jaguar.png') },
-    { image: require('./../../images/client-logo/kaff.png') },
-    { image: require('./../../images/client-logo/kajaria.png') },
-    { image: require('./../../images/client-logo/kohler.png') },
-    { image: require('./../../images/client-logo/lg.png') },
-    { image: require('./../../images/client-logo/reginox.png') },
-    { image: require('./../../images/client-logo/bosch.png') },
-    { image: require('./../../images/client-logo/hafele.png') },
-    { image: require('./../../images/client-logo/jaguar.png') },
-    { image: require('./../../images/client-logo/kaff.png') },
-    { image: require('./../../images/client-logo/kajaria.png') },
-    { image: require('./../../images/client-logo/kohler.png') },
-    { image: require('./../../images/client-logo/lg.png') },
-    { image: require('./../../images/client-logo/reginox.png') },
-    { image: require('./../../images/client-logo/bosch.png') },
-    { image: require('./../../images/client-logo/hafele.png') },
-    { image: require('./../../images/client-logo/jaguar.png') },
-    { image: require('./../../images/client-logo/kaff.png') },
-    { image: require('./../../images/client-logo/kajaria.png') },
-    { image: require('./../../images/client-logo/kohler.png') },
-    { image: require('./../../images/client-logo/lg.png') },
-    { image: require('./../../images/client-logo/reginox.png') },
-    { image: require('./../../images/client-logo/bosch.png') },
-    { image: require('./../../images/client-logo/hafele.png') },
-    { image: require('./../../images/client-logo/jaguar.png') },
-    { image: require('./../../images/client-logo/kaff.png') },
-    { image: require('./../../images/client-logo/kajaria.png') },
-    { image: require('./../../images/client-logo/kohler.png') },
-    { image: require('./../../images/client-logo/lg.png') },
-    { image: require('./../../images/client-logo/reginox.png') },
-    { image: require('./../../images/client-logo/bosch.png') },
-    { image: require('./../../images/client-logo/hafele.png') },
-    { image: require('./../../images/client-logo/jaguar.png') },
-    { image: require('./../../images/client-logo/kaff.png') },
-    { image: require('./../../images/client-logo/kajaria.png') },
-    { image: require('./../../images/client-logo/kohler.png') },
-    { image: require('./../../images/client-logo/lg.png') },
-    { image: require('./../../images/client-logo/reginox.png') },
-    { image: require('./../../images/client-logo/bosch.png') },
-    { image: require('./../../images/client-logo/hafele.png') },
-    { image: require('./../../images/client-logo/jaguar.png') },
-    { image: require('./../../images/client-logo/kaff.png') },
-    { image: require('./../../images/client-logo/kajaria.png') },
-    { image: require('./../../images/client-logo/kohler.png') },
-    { image: require('./../../images/client-logo/lg.png') },
-    { image: require('./../../images/client-logo/reginox.png') },
+    { image: require('./../../images/client-logo/artize.png') },
+    { image: require('./../../images/client-logo/2.webp') },
+    { image: require('./../../images/client-logo/3.webp') },
+    { image: require('./../../images/client-logo/4.webp') },
+    { image: require('./../../images/client-logo/5.webp') },
+    { image: require('./../../images/client-logo/6.webp') },
+    { image: require('./../../images/client-logo/7.webp') },
+    { image: require('./../../images/client-logo/8.webp') },
+    { image: require('./../../images/client-logo/9.webp') },
+    { image: require('./../../images/client-logo/10.webp') },
+    { image: require('./../../images/client-logo/11.webp') },
+    { image: require('./../../images/client-logo/12.webp') },
+    { image: require('./../../images/client-logo/13.webp') },
+    { image: require('./../../images/client-logo/14.webp') },
+    { image: require('./../../images/client-logo/15.webp') },
+    { image: require('./../../images/client-logo/16.webp') },
+    
     
 ];
 
@@ -155,10 +124,11 @@ class ProjectGrid5 extends React.Component {
                 <style>{`
                 .logos-grid-container {
                     display: grid;
-                    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
                     gap: 30px 20px;
                     justify-items: center;
                     align-items: center;
+                    margin-top:5px;
                 }
                 
                 .logo-item {

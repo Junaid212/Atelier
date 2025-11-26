@@ -9,7 +9,7 @@ const logos = [
     { image: require('./../../images/client-logo/kajaria.png') },
     { image: require('./../../images/client-logo/kohler.png') },
     { image: require('./../../images/client-logo/lg.png') },
-    { image: require('./../../images/client-logo/reginox.png') }
+    { image: require('./../../images/client-logo/reginox.png') },
 ]
 
 var bgimg1 = require('./../../images/background/bg-12.jpg');
