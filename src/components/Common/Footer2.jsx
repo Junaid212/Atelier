@@ -99,7 +99,7 @@ class Footer2 extends React.Component {
                                             <li>Atelier Designs, Fr. Muller Road, Valencia, Mangalore, India - 575 002</li>
                                             <li>info@atelierdz.com </li>
                                             <li>+91 72040 97368</li>
-                                            <li>+91 959 189 0009</li>
+                                            {/* <li>+91 959 189 0009</li> */}
                                             <li>+91 80504 81583</li>
                                         </ul>
                                     </div>

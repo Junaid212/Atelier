@@ -38,6 +38,12 @@ const logos = [
     { image: require('./../../images/client-logo/14.webp') },
     { image: require('./../../images/client-logo/15.webp') },
     { image: require('./../../images/client-logo/16.webp') },
+    { image: require('./../../images/client-logo/18.png') },
+    { image: require('./../../images/client-logo/19.png') },
+    { image: require('./../../images/client-logo/20.png') },
+    { image: require('./../../images/client-logo/21.png') },
+    { image: require('./../../images/client-logo/22.png') },
+    { image: require('./../../images/client-logo/23.png') },
     
     
 ];
@@ -144,7 +150,7 @@ class ProjectGrid5 extends React.Component {
                     justify-content: center;
                     position: relative;
                     padding: 20px;
-                    background: #fff;
+                    // background: #fff;
                     border-radius: 8px;
                     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
                     transition: all 0.3s ease;
@@ -162,14 +168,14 @@ class ProjectGrid5 extends React.Component {
                     max-height: 70px;
                     object-fit: contain;
                     margin-bottom: 10px;
-                    filter: grayscale(100%);
-                    opacity: 0.8;
+                    // filter: grayscale(100%);
+                    // opacity: 0.8;
                     transition: all 0.3s ease;
                 }
                 
                 .client-logo-pic:hover .brand-logo-img {
                     filter: grayscale(0%);
-                    opacity: 1;
+                    // opacity: 1;
                 }
                 
                 // .logo-hover {

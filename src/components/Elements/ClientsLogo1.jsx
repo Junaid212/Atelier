@@ -2,14 +2,14 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const logos = [
-    { image: require('./../../images/client-logo/bosch.png') },
-    { image: require('./../../images/client-logo/hafele.png') },
+    { image: require('./../../images/client-logo/2.webp') },
+    { image: require('./../../images/client-logo/14.webp') },
+    { image: require('./../../images/client-logo/18.png') },
     { image: require('./../../images/client-logo/jaguar.png') },
-    { image: require('./../../images/client-logo/kaff.png') },
-    { image: require('./../../images/client-logo/kajaria.png') },
     { image: require('./../../images/client-logo/kohler.png') },
-    { image: require('./../../images/client-logo/lg.png') },
-    { image: require('./../../images/client-logo/reginox.png') },
+    { image: require('./../../images/client-logo/3.webp') },
+    { image: require('./../../images/client-logo/4.webp') },
+    { image: require('./../../images/client-logo/22.png') },
 ]
 
 var bgimg1 = require('./../../images/background/bg-12.jpg');
@@ -42,11 +42,11 @@ class ClientsLogo1 extends React.Component {
                                                     style={{
                                                         width: "180px", 
                                                         height: "auto",
-                                                        filter: "grayscale(100%)",
+                                                        // filter: "grayscale(100%)",
                                                         transition: "filter 0.3s ease"
                                                     }}
-                                                    onMouseOver={(e) => e.target.style.filter = "grayscale(0%)"}
-                                                    onMouseOut={(e) => e.target.style.filter = "grayscale(100%)"}
+                                                    // onMouseOver={(e) => e.target.style.filter = "grayscale(0%)"}
+                                                    // onMouseOut={(e) => e.target.style.filter = "grayscale(100%)"}
                                                 />
                                             </NavLink>
                                         </div>

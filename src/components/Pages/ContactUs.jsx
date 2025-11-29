@@ -57,7 +57,7 @@ const ContactUs = () => {
     {
       icon: Phone,
       title: 'Phone Numbers',
-      details: ['+91 72040 97368', '+91 959 189 0009','+91 80504 81583'],
+      details: ['+91 72040 97368', '+91 80504 81583'],
       color: 'primary'
     },
     {
