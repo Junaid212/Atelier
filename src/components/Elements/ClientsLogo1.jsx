@@ -8,7 +8,7 @@ const logos = [
     { image: require('./../../images/client-logo/jaguar.png') },
     { image: require('./../../images/client-logo/kohler.png') },
     { image: require('./../../images/client-logo/3.webp') },
-    { image: require('./../../images/client-logo/4.webp') },
+    { image: require('./../../images/client-logo/19.png') },
     { image: require('./../../images/client-logo/22.png') },
 ]
 
