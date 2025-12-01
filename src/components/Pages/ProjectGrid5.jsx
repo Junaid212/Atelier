@@ -107,7 +107,7 @@ class ProjectGrid5 extends React.Component {
                                 <div className="logos-grid-container">
                                     {logos.map((item, index) => (
                                         <div key={index} className={`logo-item ${item.filter}`}>
-                                            <NavLink to={"/brands"} className="client-logo-pic">
+                                            <NavLink to={"/contact-us"} className="client-logo-pic">
                                                 <img 
                                                     src={item.image} 
                                                     alt={`brand-logo-${index}`}

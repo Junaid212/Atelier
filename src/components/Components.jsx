@@ -62,6 +62,7 @@ import Applience from './Pages/Applience';
 import Sanitary from './Pages/Sanitary';
 import Bathroom from './Pages/Bathroom';
 import Sinks from './Pages/Sinks';
+import WhatsAppButton from './Elements/WhatsAppButton';
 
 
 class Components extends React.Component {
@@ -69,6 +70,7 @@ class Components extends React.Component {
         return (
             <BrowserRouter basename="/">
                 <ScrollToTop />
+                <WhatsAppButton/>
                 <div className="page-wraper">
                         <Routes>
                             <Route path='/' element={<Home4/>} />

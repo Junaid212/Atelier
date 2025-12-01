@@ -35,7 +35,7 @@ class ClientsLogo1 extends React.Component {
                                 <div className="row justify-content-center">
                                     {logos.map((item, index) => (
                                         <div className="col-lg-3 col-md-4 col-sm-6 col-6 m-b30" key={index}>
-                                            <NavLink to={"/brands"} className="client-logo-pic">
+                                            <NavLink to={"/contact-us"} className="client-logo-pic">
                                                 <img 
                                                     src={item.image} 
                                                     alt="" 
