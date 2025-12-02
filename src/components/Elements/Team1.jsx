@@ -5,15 +5,15 @@ function Team1() {
     {
       name: "BAJPE BASHEER ABDUL KHADER ",
       title: "Founder & Chairman, ATELIER & G4 Complete Sanitary & Tiles",
-      image: "./../../images/about-slider/34.png",
+      image: "https://bembirsenkayseri.org/wp-content/uploads/2023/10/istockphoto-1327592506-612x612-1.jpg",
       description: "My entrepreneurial journey began in 1995 with a simple vision, to build businesses rooted in trust, innovation, and excellence. Over 25 years in the electronics industry have taught me that true success lies in creating value and lasting relationships. ATELIER & G4 Tiles and Sanitary Ware is an extension of that belief, where design meets purpose. Our mission is to deliver world-class products that transform spaces into reflections of beauty, comfort, and sophistication. As we grow, our focus remains clear: quality without compromise and service with integrity, a commitment to elevate everyday living through design and dedication."
     },
-    // {
-    //   name: "RAJESH KUMAR",
-    //   title: "DIRECTOR",
-    //   image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600",
-    //   description: "Visioinary leader with a passion for sustainable design and community building. Anna guides the company's strategic growth, ensurtin, ensuring evejery project reflects our core values. With 15+ years nin industry, her expertise in umantched."
-    // }
+    {
+      name: "HAMDAN",
+      title: "Managing Director , Atelier Designs",
+      image: require('./../../images/about-slider/34.png'),
+      description: "Hamdan is the MD of Atelier Designs, a premium tiles, sanitary ware, bathroom fittings, and modular kitchen showroom in Mangalore. With a strong passion for design and quality, he has created a space that offers stylish, functional, and reliable solutions for modern homes and commercial projects. He believes in delivering more than just products—focusing on understanding client needs, architectural vision, and long-term value. Known for personalized service and attention to detail, Hamdan works closely with architects, builders, designers, and homeowners to ensure seamless project execution."
+    }
   ];
 
   return (
@@ -38,7 +38,7 @@ function Team1() {
                 <div className={`member-row ${index % 2 === 0 ? 'normal' : 'reverse'}`}>
                   <div className="member-image-section">
                     <img
-                     src={require('./../../images/about-slider/34.png')} 
+                     src={member.image} 
    
                       alt={member.name}
                       className="member-image"
