@@ -5,7 +5,7 @@ function Team1() {
     {
       name: "BAJPE BASHEER ABDUL KHADER ",
       title: "Founder & Chairman, ATELIER & G4 Complete Sanitary & Tiles",
-      image: "https://bembirsenkayseri.org/wp-content/uploads/2023/10/istockphoto-1327592506-612x612-1.jpg",
+      image: require('./../../images/about-slider/cm.png'),
       description: "My entrepreneurial journey began in 1995 with a simple vision, to build businesses rooted in trust, innovation, and excellence. Over 25 years in the electronics industry have taught me that true success lies in creating value and lasting relationships. ATELIER & G4 Tiles and Sanitary Ware is an extension of that belief, where design meets purpose. Our mission is to deliver world-class products that transform spaces into reflections of beauty, comfort, and sophistication. As we grow, our focus remains clear: quality without compromise and service with integrity, a commitment to elevate everyday living through design and dedication."
     },
     {
